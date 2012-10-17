@@ -14,7 +14,9 @@ public class Adder
 		sumOfArgs += Double.parseDouble(args[i]);
 	    }
 	    System.out.println(sumOfArgs);
-	}else {
+	}
+	else
+	{
 	    System.out.print("You entered only one value.\n");
 	}
     }
